@@ -84,5 +84,5 @@
 * [Никита Тинаев](https://github.com/TinaevNK);
 * [Денис Осипов](https://github.com/ddenyy);
 * [Юлия Махлина](https://github.com/JuliaMacFiurst);
-* [Ильяс Сибгатуллин](https://github.com/);
-* [Илья Трубицин](https://github.com/).
+* [Ильяс Сибгатуллин](https://github.com/BJuice1984);
+* [Илья Трубицин](https://github.com/Lionen89).
