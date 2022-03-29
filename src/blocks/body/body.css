@@ -1,0 +1,15 @@
+.body {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #001337;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: white;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+

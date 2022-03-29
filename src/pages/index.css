@@ -1,0 +1,15 @@
+/* сбрасываем стандартные стили */
+@import url(../vendor/normalize.css);
+/* подключаем шрифты */
+@import url(../fonts/fonts.css);
+/* устанавливаем фон странице */
+@import url(../blocks/body/body.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+
+/* main */
+@import url(../blocks/main/main.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
