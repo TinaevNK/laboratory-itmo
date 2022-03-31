@@ -1,0 +1,19 @@
+.header__hamburger-menu {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  visibility: hidden;
+  gap: 30px;
+  top: 0;
+  left: -100%;
+  width: 320px;
+  height: 100%;
+  padding: 60px 0;
+  text-align: center;
+  background-color: #000D26;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .3s;
+}

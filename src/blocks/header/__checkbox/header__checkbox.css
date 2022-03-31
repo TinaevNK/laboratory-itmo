@@ -1,0 +1,26 @@
+.header__checkbox {
+  display: none;
+}
+
+.header__checkbox:checked ~ .header__hamburger-button {
+  left: 285px;
+}
+
+.header__checkbox:checked ~ .header__hamburger-button > span {
+  transform: rotate(45deg);
+}
+
+.header__checkbox:checked ~ .header__hamburger-button > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+.header__checkbox:checked ~ .header__hamburger-button > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.header__checkbox:checked ~ .header__hamburger-menu {
+  visibility: visible;
+  left: 0;
+}

@@ -7,6 +7,18 @@
 
 /* header */
 @import url(../blocks/header/header.css);
+/* контейнер бургерного меню */
+@import url(../blocks/header/__hamburger-container/header__hamburger-container.css);
+/* чекбокс кнопки */
+@import url(../blocks/header/__checkbox/header__checkbox.css);
+/* лэбл чекбокса кнопки(сама кнопка) */
+@import url(../blocks/header/__hamburger-button/header__hamburger-button.css);
+/* список ссылок */
+@import url(../blocks/header/__hamburger-menu/header__hamburger-menu.css);
+/* элементы списка ссылок*/
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+/* ссылки */
+@import url(../blocks/header/__menu-link/header__menu-link.css);
 
 /* main */
 @import url(../blocks/main/main.css);
