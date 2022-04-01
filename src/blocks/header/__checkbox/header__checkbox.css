@@ -4,20 +4,24 @@
 
 .header__checkbox:checked ~ .header__hamburger-button {
   left: 285px;
+  transition-duration: .3s;
 }
 
 .header__checkbox:checked ~ .header__hamburger-button > span {
   transform: rotate(45deg);
+  transition-duration: .3s;
 }
 
 .header__checkbox:checked ~ .header__hamburger-button > span::before {
   top: 0;
   transform: rotate(0);
+  transition-duration: .3s;
 }
 
 .header__checkbox:checked ~ .header__hamburger-button > span::after {
   top: 0;
   transform: rotate(90deg);
+  transition-duration: .3s;
 }
 
 .header__checkbox:checked ~ .header__hamburger-menu {

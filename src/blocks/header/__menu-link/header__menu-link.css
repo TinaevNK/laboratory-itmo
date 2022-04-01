@@ -5,5 +5,12 @@
   font-weight: 400;
   font-style: normal;
   line-height: 1.357;
-  padding: 15px 24px;
+  padding: 12.5px 0 12.5px 15px;
+  width: 100%;
+  text-align: left;
+  transition-duration: .1s;
+}
+
+.header__menu-link:active {
+  background-color: #001337;
 }

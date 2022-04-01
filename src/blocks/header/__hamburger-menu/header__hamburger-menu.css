@@ -6,7 +6,6 @@
   align-items: flex-start;
   position: fixed;
   visibility: hidden;
-  gap: 30px;
   top: 0;
   left: -100%;
   width: 320px;
