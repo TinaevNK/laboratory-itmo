@@ -41,5 +41,14 @@
 /* education стили стрелка ссылки */
 @import url(../blocks/main/education/__link-arrow/education__link-arrow.css);
 
+/* education стили контейнера кнопок */
+@import url(../blocks/main/education/__button-container/education__button-container.css);
+
+/* education стили кнопок переключения табов(вкладок) */
+@import url(../blocks/main/education/__button/education__button.css);
+
+/* education стили активной кнопки */
+@import url(../blocks/main/education/__button/_active/education__button_active.css);
+
 /* footer */
 @import url(../blocks/footer/footer.css);

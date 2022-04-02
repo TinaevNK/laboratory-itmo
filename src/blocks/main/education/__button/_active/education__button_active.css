@@ -1,0 +1,11 @@
+.education__button_active {
+  background: #e0f0ff;
+  color: #000d26;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .education__button_active {
+    border-radius: 10px;
+  }
+}
