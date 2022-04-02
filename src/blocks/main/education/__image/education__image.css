@@ -1,0 +1,23 @@
+.education__image {
+  min-width: 256px;
+  max-width: 320px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .education__image {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .education__image {
+    max-width: 445px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}

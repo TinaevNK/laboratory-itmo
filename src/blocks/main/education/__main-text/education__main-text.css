@@ -1,0 +1,22 @@
+.education__main-text {
+  width: 100%;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .education__main-text {
+    font-size: 14px;
+    line-height: 1.42;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .education__main-text {
+    font-size: 18px;
+    line-height: 1.66;
+  }
+}
