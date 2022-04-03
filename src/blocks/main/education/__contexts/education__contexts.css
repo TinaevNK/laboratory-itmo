@@ -1,4 +1,11 @@
 .education__contexts {
   margin: 0 auto;
   position: relative;
+  width: 288px;
+}
+
+@media screen and (min-width: 760px) {
+  .education__contexts {
+    width: 100%;
+  }
 }

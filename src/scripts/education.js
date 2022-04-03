@@ -11,7 +11,6 @@ export const magistracyButton = document.querySelector('#magistracy');
 export const educationContext = document.querySelector('.education__container_unvisible');
 
 export function handleChangeVisibleContext() {
-  // debugger
   educationContext.classList.toggle('education__container_visible');
 }
 

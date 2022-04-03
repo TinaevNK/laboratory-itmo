@@ -3,7 +3,7 @@
   width: 288px;
   height: 40px;
   align-items: center;
-  margin: 0 auto;
+  margin: 16px auto 0;
   justify-content: center;
   box-sizing: border-box;
   border-radius: 5px;
@@ -15,11 +15,13 @@
     width: 450px;
     height: 44px;
     border-radius: 10px;
+    margin: 30px auto 0;
   }
 }
 @media screen and (min-width: 1110px) {
   .education__button-container {
     width: 540px;
     height: 60px;
+    margin: 30px auto 0;
   }
 }

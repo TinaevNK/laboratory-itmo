@@ -4,13 +4,15 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33;
-  margin: 0;
+  margin: 0 auto 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
   .education__main-text {
     font-size: 14px;
     line-height: 1.42;
+    margin: 0 auto 40px;
+    max-width: 690px;
   }
 }
 
@@ -18,5 +20,7 @@
   .education__main-text {
     font-size: 18px;
     line-height: 1.66;
+    margin: 0 auto 60px;
+    max-width: 920px;
   }
 }
