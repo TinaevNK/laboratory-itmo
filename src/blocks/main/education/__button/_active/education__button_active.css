@@ -2,6 +2,7 @@
   background: #e0f0ff;
   color: #000d26;
   border-radius: 5px;
+  transform: scale(1.01);
 }
 
 @media screen and (min-width: 768px) {

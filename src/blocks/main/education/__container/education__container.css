@@ -2,28 +2,28 @@
   background-color: #FFFFFF;
   border-radius: 10px;
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 16px;
+  margin: 20px auto;
   flex-direction: column-reverse;
   align-items: center;
   padding: 16px;
+  width: 288px;
 }
 
 @media screen and (min-width: 760px) {
   .education__container {
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1169px;
+    width: 690px;
     padding: 20px;
     margin-bottom: 30px;
   }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1110px) {
   .education__container {
     padding: 30px;
     box-sizing: border-box;
-    position: relative;
     margin-bottom: 35px;
+    width: 100%;
   }
 }

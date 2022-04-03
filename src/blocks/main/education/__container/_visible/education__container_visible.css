@@ -1,0 +1,4 @@
+.education__container_visible {
+  opacity: 1;
+  z-index: 3;
+}

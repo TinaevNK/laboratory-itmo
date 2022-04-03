@@ -22,6 +22,13 @@
 
 /* education стили контейнера */
 @import url(../blocks/main/education/__container/education__container.css);
+@import url(../blocks/main/education/__contexts/education__contexts.css);
+
+/* education стили скрытого когтейнера */
+@import url(../blocks/main/education/__container/_unvisible/education__container_unvisible.css);
+
+/* education стили открытого когтейнера */
+@import url(../blocks/main/education/__container/_visible/education__container_visible.css);
 
 /* education стили картинка */
 @import url(../blocks/main/education/__image/education__image.css);
