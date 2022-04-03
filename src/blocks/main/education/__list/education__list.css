@@ -1,0 +1,16 @@
+.education__list {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #000d26;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 1110px) {
+  .education__list {
+    font-size: 18px;
+    line-height: 1.66;
+    box-sizing: border-box;
+  }
+}

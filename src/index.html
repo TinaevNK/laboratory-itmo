@@ -4,45 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Дополнительный проект ИТМО" />
     <meta
-      name="keywords" content="html, css, grid, flex, frontend, лаборатория, итмо, адаптивная вёрстка, js, javascript" />
+      name="keywords"
+      content="html, css, grid, flex, frontend, лаборатория, итмо, адаптивная вёрстка, js, javascript"
+    />
     <meta name="author" content="https://github.com/TinaevNK/laboratory-itmo" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>ITMO-Laboratory</title>
   </head>
+
   <body class="body">
-    <header class="header">
-      header
-    </header>
+    <header class="header">header</header>
     <main class="main">
-      <section class="about" id="about">
-        about
-      </section>
+      <section class="about" id="about">about</section>
       <section class="ai-research-lab" id="ai-research-lab">
         ai-research-lab
       </section>
-      <section class="projects" id="projects">
-        projects
-      </section>
+      <section class="projects" id="projects">projects</section>
       <section class="education" id="education">
-        education
+        <h2 class="education__title">Образование</h2>
+        <p class="education__main-text">В образовательной деятельности НЦКР активно использует существующую в Университете
+          ИТМО инфраструктуру
+          и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН»,
+          НовГУ), а также профильную
+          компанию ООО «НЦЭО» в области электронного и дистанционного образования. Реализуются образовательные программы
+          различных форматов.
+        </p>
+        <article class="education__contexts">
+        <div class="education__container">
+          <div class="education__text-container">
+            <h3 class="education__subtitle">Образовательные программы аспирантуры в области МО и КТ</h3>
+            <ul class="education__list">
+              <li class="education__list-item">Прикладные технологии искусственного интеллекта;</li>
+              <li class="education__list-item">Машинное обучение и искусственный интеллект;</li>
+              <li class="education__list-item">Биометрические информационные системы;</li>
+              <li class="education__list-item">Речевые информационные системы;</li>
+              <li class="education__list-item">Когнитивные вычисления и квантовый интеллект;</li>
+              <li class="education__list-item">Большие данные и экстренные вычисления;</li>
+              <li class="education__list-item">Семантические системы и инженерия знаний;</li>
+              <li class="education__list-item">Технологии разработки компьютерных игр.</li>
+            </ul>
+            <a href="#" class="education__link" target="_blank">
+              Подробнее
+              <div class="education__link-arrow"></div>
+            </a>
+          </div>
+          <img src="./images/education/magistratura.png" alt="Магистратура ИТМО" class="education__image">
+        </div>
+        <div class="education__container education__container_unvisible">
+          <div class="education__text-container">
+            <h3 class="education__subtitle">Образовательные программы аспирантуры в области МО и КТ</h3>
+            <ul class="education__list">
+              <li class="education__list-item">Прикладные технологии искусственного интеллекта;</li>
+              <li class="education__list-item">Машинное обучение и искусственный интеллект;</li>
+              <li class="education__list-item">Биометрические информационные системы;</li>
+              <li class="education__list-item">Речевые информационные системы;</li>
+              <li class="education__list-item">Когнитивные вычисления и квантовый интеллект;</li>
+              <li class="education__list-item">Большие данные и экстренные вычисления;</li>
+              <li class="education__list-item">Семантические системы и инженерия знаний;</li>
+              <li class="education__list-item">Технологии разработки компьютерных игр.</li>
+            </ul>
+            <a href="#" class="education__link" target="_blank">
+              Подробнее
+              <div class="education__link-arrow"></div>
+            </a>
+          </div>
+          <img src="./images/education/aspirantura.png" alt="Аспирантра ИТМО" class="education__image">
+        </div>
+        </article>
+        <div class="education__button-container">
+          <p class="education__button" id="aspirante">Аспирантура</p>
+          <p class="education__button education__button_active" id="magistracy">
+            Магистратура
+          </p>
+        </div>
       </section>
-      <section class="publications" id="publications">
-        publications
-      </section>
-      <section class="team" id="team">
-        team
-      </section>
-      <section class="partners" id="partners">
-        partners
-      </section>
-      <section class="feedback" id="feedback">
-        feedback
-      </section>
+      <section class="publications" id="publications">publications</section>
+      <section class="team" id="team">team</section>
+      <section class="partners" id="partners">partners</section>
+      <section class="feedback" id="feedback">feedback</section>
     </main>
-    <footer class="footer" id="footer">
-      footer
-    </footer>
+    <footer class="footer" id="footer">footer</footer>
+    <script type="module" src="./pages/index.js"></script>
   </body>
 </html>

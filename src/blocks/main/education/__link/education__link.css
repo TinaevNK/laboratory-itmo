@@ -1,0 +1,28 @@
+.education__link {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #000d26;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+
+.education__link:hover {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .education__link {
+    font-size: 14px;
+    line-height: 1.35;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .education__link {
+    font-size: 18px;
+    line-height: 1.66;
+  }
+}

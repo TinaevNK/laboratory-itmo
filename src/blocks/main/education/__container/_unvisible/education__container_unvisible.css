@@ -1,0 +1,8 @@
+.education__container_unvisible {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  transition: all .5s linear;
+  z-index: -1;
+}

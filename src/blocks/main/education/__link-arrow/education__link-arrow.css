@@ -1,0 +1,7 @@
+.education__link-arrow {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  background: center url(../../../../images/education/arrow-right.svg);
+  display: inline-block;
+}
