@@ -11,5 +11,18 @@
 /* main */
 @import url(../blocks/main/main.css);
 
+/* ai_research */
+@import url(../blocks/ai-research-lab/ai-research-lab.css);
+@import url(../blocks/ai-research-lab/__title/ai-research-lab__title.css);
+@import url(../blocks/ai-research-lab/__info/ai-research-lab__info.css);
+@import url(../blocks/ai-research-lab/__text-container/ai-research-lab__text-container.css);
+@import url(../blocks/ai-research-lab/__text/ai-research-lab__text.css);
+@import url(../blocks/ai-research-lab/__text-description/ai-research-lab__text-description.css);
+@import url(../blocks/ai-research-lab/__img-container/ai-research-lab__img-container.css);
+@import url(../blocks/ai-research-lab/__cards/ai-research-lab__cards.css);
+@import url(../blocks/ai-research-lab/__card/ai-research-lab__card.css);
+@import url(../blocks/ai-research-lab/__card/_text/ai-research-lab__card_text.css);
+@import url(../blocks/ai-research-lab/__card/_icon/ai-research-lab__card_icon.css);
+@import url(../blocks/ai-research-lab/__card/_button/ai-research-lab__card_button.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
