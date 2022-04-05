@@ -8,7 +8,7 @@
   padding: 12.5px 0 12.5px 15px;
   width: 100%;
   text-align: left;
-  transition-duration: .1s;
+  transition: all .2s ease;
 }
 
 .header__menu-link:active {

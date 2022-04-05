@@ -1,4 +1,11 @@
 .header {
   flex: 0 0 auto;
-  justify-content: space-between;
+  height: 44px;
+  width: 100%;
+  position: fixed;
+  background-color: #000D26;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
 }
